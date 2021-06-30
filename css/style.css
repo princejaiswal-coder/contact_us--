@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+::selection{
+  color: #fff;
+  background-color: #716df7;
+}
+body {
+  background-color: #716df7;
+}
+.contact_card {
+  margin-top: 5rem;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.contact_card h2,
+p {
+  margin: 30px;
+  font-weight: 600;
+}
+.contact_card h2 {
+  font-size: 2.5em;
+}
+.contact_card p {
+  color: #97aad6;
+}
+#purple {
+  color: #4c49b9;
+}
+.form_cont {
+  margin-left: 30px;
+}
+.form_lab {
+  color: #a1a5ac;
+}
+.form_cont input,
+textarea {
+  border-radius: 30px !important;
+  border: none;
+  background: #f4f6fc !important;
+}
+.btn_contact {
+  border-radius: 20px;
+  width: 18rem;
+  height: 3rem;
+  color: #fff;
+  background: #827ffe;
+  transition: 0.3s all ease;
+}
+.btn_contact:hover{
+    background-color: #fff;
+    color: #827ffe;
+    border-color: #827ffe;
+}
+.contac_img{
+    margin-left: 5rem;
+    width: 20rem;
+}
+.contac_detai i{
+    font-size: 20px;
+    color: #a1a5ac;
+}
+.contac_detai{
+    margin-left: 4.5rem;
+}
+.contac_detai a{
+    text-decoration: none;
+    color: #a1a5ac;
+}
+.contac_detai .email , .call , .address{
+  letter-spacing: 1px;
+  padding: 10px;
+  margin: 2px;
+}
+.follow{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.follow i{
+  font-size: 35px;
+  letter-spacing: 2rem;
+}
+.fa-facebook{
+  color: rgb(66, 103, 178);
+}
+.fa-instagram{
+  color: #C13584;
+}
+.fa-twitter{
+  color: #1DA1F2;
+}
